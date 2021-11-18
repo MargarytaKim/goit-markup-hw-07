@@ -1,0 +1,37 @@
+body {
+   color: var(--secondary-title-color);
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 14px;
+   line-height: 16px;
+ }
+ 
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ .btn,
+ button {
+   border: none;
+   outline: none;
+   background: transparent;
+   cursor: pointer;
+ }
+ 
+ a {
+   text-decoration: none;
+   color: #000;
+ }
+ 
+ ul {
+   list-style: none;
+ }
+ 
+ img {
+   display: block;
+   width: 100%;
+ }
+ 

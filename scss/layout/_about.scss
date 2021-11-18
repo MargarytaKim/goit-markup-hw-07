@@ -1,0 +1,35 @@
+ /*------------ABOUT-----------------*/
+.about {
+  padding-bottom: 94px;
+  
+  &-title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-title-color);
+  }
+  &-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-item {
+    width: 370px;
+    position: relative;
+  }
+  &-item-descript {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 27px 0;
+    text-align: center;
+    background: rgba(47, 48, 58, 0.8);
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
